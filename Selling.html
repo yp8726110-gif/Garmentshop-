@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Garment Shop - Selling</title>
+<style>
+body{
+ font-family: Arial, sans-serif;
+ background:#f4f4f4;
+}
+header{
+ background:#1d2b64;
+ color:white;
+ padding:15px;
+ text-align:center;
+}
+.products{
+ display:grid;
+ grid-template-columns:repeat(3,1fr);
+ gap:20px;
+ padding:30px;
+}
+.card{
+ background:white;
+ padding:20px;
+ border-radius:10px;
+ text-align:center;
+ box-shadow:0 2px 10px rgba(0,0,0,0.2);
+}
+button{
+ background:#1d2b64;
+ color:white;
+ border:none;
+ padding:8px 15px;
+ border-radius:6px;
+ cursor:pointer;
+}
+button:hover{
+ background:#163057;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h2>Products</h2>
+</header>
+
+<div class="products">
+<div class="card">
+<h3>T-Shirt</h3>
+<p>₹499</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<h3>Jeans</h3>
+<p>₹1299</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<h3>Shirt</h3>
+<p>₹899</p>
+<button>Add to Cart</button>
+</div>
+</div>
+
+</body>
+</html>
